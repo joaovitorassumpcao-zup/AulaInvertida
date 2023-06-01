@@ -14,6 +14,9 @@ public class Exer11 {
             System.out.println("Peso: " + peso + " Kg");
             System.out.println("Excesso: " + excesso + " Kg");
             System.out.println("Multa (R$4,00/Kg):  R$ " + multa);
+            return;
         }
+
+        System.out.println("Sem multa!");
     }
 }
